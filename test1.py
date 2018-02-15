@@ -1,9 +1,9 @@
 #IDENTITE
 
-oAge = input("Quel age avez vous ? ")
+oAge = str(input("Quel age avez vous ? "))
 while not oAge.isdigit():
     print("Veuillez entrer un nombre entier")
-    oAge = input("Quel age avez vous ? ")
+    oAge = str(input("Quel age avez vous ? "))
 #oAge = int(oAge)
 #if oAge >=18:
 #	print ("bravo")
